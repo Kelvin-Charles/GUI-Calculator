@@ -26,7 +26,7 @@ def calc(entry):
             popup.resizable(True)
             popup.geometry("150x100")
             popup.title("Alert")
-            label = Label(popup, text="Enter valid values")
+            label = Label(popup, text="Weka thamani halali")
             label.pack(side="top", fill="x", pady=10)
             B1 = Button(popup, text="Okay", bg="#DDDDDD", command=popup.destroy)
             B1.pack()
